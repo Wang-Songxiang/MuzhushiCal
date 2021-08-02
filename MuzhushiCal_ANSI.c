@@ -104,7 +104,7 @@ int main(){
     loop:printf("选择需要计算的选项:1.升星  2.升专武   3.都升  4.点错了(退出)\n");
     scanf("%d",&option);
     if(option==1||option==2||option==3){
-        printf("请输入已有母猪石数量\n");
+        printf("请输入已有碎片数量\n");
         scanf("%d",&NumOfStone);
         printf("请输入已经购买的碎片数量\n");
         scanf("%d",&buy);
